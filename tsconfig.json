@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+  },
+  "include": ["src/**/*", "nodejs/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@peter.mihalik/angular-spec-generator",
+  "description": "Generate angular spec files with mocks initialized automatically.",
+  "version": "1.0.1",
+  "type": "commonjs",
+  "bin": {
+    "asg": "dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "templates/test.template.handlebars"
+  ],
+  "keywords": ["angular", "spec", "generator", "test", "mock", "testing", "jasmine", "ts-mocks"],
+  "author": "Peter Mihalik",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2",
+    "commander": "^12.1.0",
+    "handlebars": "^4.7.8"
+  }
+}
