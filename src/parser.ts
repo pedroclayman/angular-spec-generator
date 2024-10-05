@@ -2,7 +2,7 @@ import * as ts from 'typescript';
 import { Dependency, ParsedOutput } from './model.js';
 import * as path from 'path';
 
-const decorators = ['Component', 'Directive', 'Pipe', 'Service'];
+const decorators = ['Component', 'Directive', 'Pipe', 'Injectable'];
 
 const classHasDecorator = (classNode: ts.ClassDeclaration, sourceFile: ts.SourceFile) => {
     return (classNode.modifiers ?? []).some(
